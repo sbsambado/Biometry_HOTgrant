@@ -7,12 +7,12 @@ This repository is for the re-structuring of the Biometry course computer labs i
 4. Revising content to reduce cheating from previous lab assignments
    
 **Lab material**
-Lab 1 – Biometry Basics in RMarkdown
-Lab 2 – Intro to Data Wrangling & Analysis
-Lab 3 – Visualizing Data & Identifying Distributions 
-Lab 4 – Comparing Mean with Parametric Tests
-Lab 5 – Comparing Means with Non-Parametric Tests
-Lab 6 – Analysis of Variance Across Groups
-Lab 7 – Correlation & Linear Regression
-Lab 8 – Multiple Linear Regression & Model Selection
-Lab 9 – Other Common Ecological Statistics in Research
++ Lab 1 – Biometry Basics in RMarkdown
++ Lab 2 – Intro to Data Wrangling & Analysis
++ Lab 3 – Visualizing Data & Identifying Distributions
++ Lab 4 – Comparing Mean with Parametric Tests
++ Lab 5 – Comparing Means with Non-Parametric Tests
++ Lab 6 – Analysis of Variance Across Groups
++ Lab 7 – Correlation & Linear Regression
++ Lab 8 – Multiple Linear Regression & Model Selection
++ Lab 9 – Other Common Ecological Statistics in Research
