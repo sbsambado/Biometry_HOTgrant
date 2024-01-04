@@ -1,10 +1,10 @@
 This repository is for the re-structuring of the Biometry course computer labs in the Ecology Department at UC Santa Barbara. This work was awarded to S Sambado and C J Briggs and supported by a Hybrid, Online, and Technology Teaching Grant from UCSB. 
 
 **Goals for restructuring**
-1. Creating supplemental Exercise file to address learning needs of most students
-2. Streamlined Homework file for easier grading
-3. Update material to reflect broader interests of students (i.e. all biological systems) and include concepts of data sovereignty and environmental data justice 
-4. Revising content to reduce cheating from previous lab assignments
+1. Creating supplemental Exercise file to **address learning needs of all students**
+2. Streamlined Homework file to make **grading easier** for TAs
+3. Update material to **reflect broader interests of students** (i.e. all biological systems) and include concepts of data sovereignty and environmental data justice 
+4. Revising content to **reduce cheating** from previous lab assignments
    
 **Lab material**
 + Lab 1 – Biometry Basics in RMarkdown
