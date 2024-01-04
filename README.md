@@ -1,0 +1,1 @@
+This repository is for the re-structuring of the Biometry course computer labs in the Ecology Department at UC Santa Barbara. This work was supported by a Hybrid, Online, and Technology Teaching Grant from UCSB. 
