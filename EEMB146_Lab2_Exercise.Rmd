@@ -1,0 +1,310 @@
+---
+title: "EEMB146 Lab 2 Exercise"
+author: "Written by Samantha Sambado"
+date: "2024-01-02"
+output: 
+    html_document:
+      toc: true
+      toc_float: true
+---
+
+## Exercise 2 - Intro to Data Wrangling & Analysis
+# Additional Resources for Final Project
+# Learning Objectives
+
++ **Set up RProject** on personal computer
++ Understand common **syntax errors in R**
++ Successfully **read in data** into their RProject Environment 
++ Know how to **explore a data set** with `dim()` & `str()`
++ Know how to **find min, max, mean** with `tidyverse` functions
++ Know how to **make barplots**
+
+# Set Up RProject and RMarkdown
+
+  1. Make a new 'Biometry' or 'EEMB 146' folder on your computer  (I keep my folder on my Desktop)
+  2. Create a new Rproj titled something like 'lab_2', make it a subdirectory of your 'Biometry' folder (NOTE: Create a new Rrpoj by clicking  the arrow in upper right hand corner of Rstudio and  selecting "New Project...") 
+  3. Download the lab2_instructions.Rmd from Canvas
+  4. Download the homework_template.Rmd from Canvas
+  5. Download Lab_2_data from  Canvas 
+  6. Drag/Move ALL YOUR RMD AND DATA FILES to your 'lab_2' Rproj folder   
+  7. You should see all your  files in the Files/Plots/Packages/Help quadrant in the lower right corner of your R studio
+  
+  
+# Background 
+R is annoyingly specific. How you spell, capitalize, and punctuate matter. If you are having a bug in your code I always recommend checking those 3 common syntax errors.
+
+### 3 common syntax errors
+
+**1. spelling** 
+
++ install.packages('readr'), correct
+
++ instal.package('readr') , not correct
+
+**2. capitilization**
+
++ install.packages('readr'), correct
+
++ Install.Packages('readr'), not correct
+
+**3. punctuation**
+
++ install.packages('readr'), correct
+
++ instll_packages('readr'), not correct
+
+
+```{r setup, include=FALSE}
+#^^above code (always at the top of the chunk) is called inline code
+# The first chunk in your Rmarkdown is the setup chunk({r, setup}), this is where you can 1) install/ load packages and 2) read in data
+
+################################################################################
+## setting up the style of your knitted document
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE) 
+# echo = TRUE will have your code show up in the output (good for grading)
+# warning = FALSE & message = FALSE will suppress all messages when knitting your document
+
+################################################################################
+## installing packages
+# remember, install.packages("PACAKGE") then library(PACKAGE)
+  ## Note: quotations for install.packages(), no quotations for library()
+# you only need to install a package once to call the library
+# after you install.packages(), then hashtag # install.packages()
+  ## Note: hashtag (i.e. annotating) is making a comment, it is not seen as code
+
+library(readr) # package for reading in data
+library(tidyverse) # package for data wrangling 
+#install.packages("ggplot2") 
+library(ggplot2) # NEW package for plotting
+
+################################################################################
+## upload data
+# recommend putting data into a folder called 'data'
+hbr_maples <- read.csv("data/hbr_maples.csv") 
+world_bank <- read.csv("data/world_bank_10.csv")
+ntl_icecover <- read.csv("data/ntl_icecover.csv")  
+
+#Data not uploading/getting  error messages? Are your csv  files in your Rproj folder?? Look at your files at the bottom right 
+
+#the setup chunk is not usually this long.......
+```
+
+# Exercises
+
+## Exercise 1: Exploring dataframes
+
+We will be exploring the data set `hbr_maples`. This data looks at the health of Sugar Maple (*Acer saccharum*) seedlings in response to calcium addition (2003-2004), at the Hubbard Brook LTER, which is part of The [National Science Foundation's (NSF) Long Term Ecological Research (LTER)](https://lternet.edu/) program. More details about specific columns can be found on the [ltersampler website](https://lter.github.io/lterdatasampler/reference/hbr_maples.html). 
+
+
+**Some questions we can answer with the following code**:
+
++ How many rows and columns are in the `hbr_maples` data set?
++ Which columns are considered numeric using the `str()`?
++ Which columns are considered Factor using the `str()`?
++ How many levels are in the watershed factor?
++ How many levels are in the elevation factor?
++ How many observations are in the reference and W1 groups?
+```{r}
+# you will be using the sugar maple data set, hbr_maples
+
+## How many rows and columns in hbr_maples data set?
+dim(hbr_maples) # 359 rows, 12 columns
+
+
+## Which columns are considered numeric using the str()?
+str(hbr_maples) # stem_length, leaf1area, leaf2area, leaf_dry_mass, stem_dry_mass, corrected_leaf_area
+
+
+## Which columns are considered Factor? Does it show up as Factor using str()?
+str(hbr_maples) # so technically 'watershed' and 'elevation' are considered factors with levels 'Reference'/'W1' and 'Low'/'Mid' but str() didn't read them in that way
+# you can change the the data type of a column with function as.factor()
+hbr_maples$watershed <- as.factor(hbr_maples$watershed)
+# you can use $ to select a column (i.e. watershed) within a dataset (i.e. hbr_maples)
+hbr_maples$elevation <- as.factor(hbr_maples$elevation)
+
+
+## How many levels in watershed factor?
+# use unique() function
+unique(hbr_maples$watershed) # 2 levels, 'Reference'/'W1'
+
+## How many levels in elevation factor?
+unique(hbr_maples$elevation) # 2 levels, 'Low'/'Mid' (ignore <NA> for now)
+
+
+## How many observations in the reference or W1 are there?
+# remember %>% is essentially saying "and then do this,"
+hbr_maples %>%  # call the hbr_maples dataset and then,
+  group_by(watershed) %>% # group by watershed level and then,
+  tally() # tally the observation in each group # Reference has 179 observations; W1 (calcium treated) has 180 observations
+```
+
+## Exercise 2: Find the min, max, and mean
+
+We will be exploring the data set `ntl_icover`. This data looks at ice freeze and thaw dates for Madison, WI Area Lakes, North Temperate Lakes LTER. More details about specific columns can be found on the [ltersampler website](https://lter.github.io/lterdatasampler/reference/ntl_icecover.html). 
+
+
+**Some questions we can answer with the following code**:
+
++ What was the first and last year of observation (i.e. min and max year)?
++ What was the mean ice duration (in days) before 2000 and after 2000?
++ Which year had largest mean in ice duration and what was that mean?
+
+```{r}
+# you will be using the sugar maple data set, ntl_icover
+
+## What was the first and last year of observation (i.e. min and max year)?
+ntl_icecover %>% # call in ntl_icecover data set and then,
+  summarise(min_year = min(year), # summarise the minimum year and then,
+            max_year = max(year)) # summarise the maximum year # min = 1851, max = 2019
+
+
+## What was the mean ice duration (in days) before 2000 and after 2000?  
+ntl_icecover %>%  # call in ntl_icecover data set and then,
+  filter(year < 2000) %>%  # filter observations BEFORE 2000 and then,
+  summarise(mean = mean(ice_duration), # summarise mean ice duration and then,
+            mean_nona = mean(ice_duration, na.rm = TRUE)) # summarise mean ice duration and remove NAs
+# can you see the difference between 'mean' and 'mean_nona' columns?             
+# when you don't explicitly remove NAs (na.rm = TRUE), R cannot compute numeric summaries
+# the mean number of days between the freeze & breakup dates of each lake BEFORE 2000 is 105 days.
+
+ntl_icecover %>%  # call in ntl_icecover data set and then,
+  filter(year > 2000) %>% # filter observations AFTER 2000 and then,
+  summarise(mean_nona = mean(ice_duration, na.rm = TRUE)) # summarise mean ice duration and remove NAs # the mean number of days between the freeze & breakup dates of each lake AFTER 2000 is 86 days.
+
+
+## Which year had largest number (i.e. max) of ice duration days and what was that maximum?
+ntl_icecover %>%  # call in ntl_icecover data set and then,
+  group_by(year) %>% # group by each year and then,
+  dplyr::summarise(max_days = max(ice_duration, na.rm = TRUE)) %>% # summarise mean ice duration by year and then,
+  arrange(desc(max_days)) # arrange in descending order of max number of ice duration days by year # when you see :: that means call the function (i.e. summarise) from a particular package (i.e. dplyr) # The year 1880 had the max number of ice duration days at 161 days.
+```
+
+## Exercise 3: Make barplots 
+
+We will be exploring the data set `world_bank`. This data looks at 6 climate change indicators in the Western Hemisphere. More details about specific columns can be found on the [World Bank website](https://data.worldbank.org/indicator?tab=featured). 
+
++ Based on the bar plot, which country has the lowest access to electricity (% of population)?
++ Based on bar plot, which country has highest ag land (% of land area)? 
++ Based on bar plot, which country has a mean of 15 micrograms per cubic meter of PM2.5 air pollution? 
++ Based on bar plot, which country has highest methane emissions (kt of C02 equivalent)? What happens to the y-axis when looking at methane emissions? 
+```{r}
+# you will be using the sugar maple data set, world_bank
+
+## Based on the bar plot, which country has lowest access to electricity?
+# very basic plot -- you will need to edit this for HW credit
+world_bank %>% 
+  ggplot(aes(x = name, y = electricity)) +
+  geom_bar(stat = "identity")
+
+# more intricate plot -- try to strive for this standard for HW assignments
+world_bank %>% # call in data set and then, 
+  ggplot(aes(x = reorder(name, electricity), y = electricity)) + # use data columns 'name', 'electricity' and reorder data by increasing electricty
+  geom_bar(stat = "identity") + # the shape of the x & y relationship should be a barplot
+  theme_minimal() + # the background of the plot should have minimal features (i.e. grey lines)
+  theme(axis.title = element_text(face = "bold"), # change the axis titles to be bold
+        axis.text.x = element_text(size = 9, angle = 90)) + # change the x axis text to be font size 9 at 90 degree angle 
+  labs(x = "Country", y = "% Access to Electricity") # relabel # Haiti has lowest access to electricity. 
+
+
+## Which country has highest agland (% of land area)
+world_bank %>%  # call in data set and then, 
+  ggplot(aes(x = reorder(name, agland), y = agland)) +  # use data columns 'name', 'agland' and reorder data by increasing ag land %
+  geom_bar(stat = "identity") + # the shape of the x & y relationship should be a barplot
+  theme_bw() + # the plot should have thick black lines
+  theme(axis.title = element_text(face = "bold"), # change the axis titles to be bold
+        axis.text.x = element_text(size = 9, angle = 90, h = 1)) + # change the x axis text to be font size 9 at 90 degree angle and right justified
+  labs(x = "Country", y = "% of Land Area is Ag Land") # Uruguay has highest % of ag land compared to total area.
+
+
+## Which country has a mean of 15 micrograms per cubic meter of air pollution?
+world_bank %>% 
+  ggplot(aes(x = reorder(name, air_poll), y = air_poll)) +
+  geom_bar(stat = "identity") +
+  theme_light() + # background of plot should have light lines
+  theme(axis.title = element_text(face = "bold"),
+        axis.text.x = element_text(size = 9, angle = 90, h = 1)) +
+  labs(x = "Country", y = "PM2.5 Air Pollution Mean (mg/m^3)") # Guyana has a mean of 15 micrograms per cubic meter of air pollution
+
+
+## Which country has highest methane emissions (kt of C02 equivalent)? What happens to the y axis when looking at methane emissions?
+world_bank %>% 
+  ggplot(aes(x = reorder(name, methane), y = methane)) +
+  geom_bar(stat = "identity") +
+  theme_classic() +
+  theme(axis.title = element_text(face = "bold"),
+        axis.text.x = element_text(size = 9, angle = 90, h = 1)) +
+  labs(x = "Country", y = "Methane Emissions (kt of C02 equivalent)") # what happened to the y scale? # The United States has highest methane emissions. The US emissions are so much larger than it's Western Hemisphere counterparts that the y-axis is transformed to a log scale.
+
+```
+
+
+# Additional Resources for Final Project
+
+For your Final Project, you will be responsible for creating a professional looking report about a biological system you investigated using statistical tests and R skills you learned throughout EEMB 145. By creating a professional looking report, you will need to master some RMarkdown syntax to create headers, bullet points, bolded/italic words, and include photos or hyperlinks. The following links are a good resource to figure out how to do that. 
+
+[The ultimate RMarkdown guide](https://bookdown.org/yihui/rmarkdown/installation.html) -- everything you will need to know.
+
+[Quick & interactive guide](https://commonmark.org/help/tutorial/index.html) -- if you want to to learn in a non-traditional way.
+
+[How to add specific document elements](https://bookdown.org/yihui/rmarkdown-cookbook/document-elements.html) -- good for inserting photos & bibliographies.
+
+# Vocab
+
+When you are trying to troubleshoot code, it will be helpful to use common language such as variable, function, or argument to describe what you are trying to fix. 
+
+As a refresher:
+
++ **variable**: an item that is stored in your Global Environment (top right corner). Variables tend to be on the left hand side of <-, whereas the information used to create the variable is on the right hand side of <-.
+
++ **function**: code that performs an action, and really how you do anything in R. Usually takes an input (ie argument), does something to it and return an output (ie an output, test result, plot). There are functions for importing converting and manipulating data.
+
++ **argument**: an element of a function, either essential or optional, that informs or alters how the function works. For instance, it can be a file path where the function should import from or save to : function(argument = `file = \"file-path\"`)
+
+The structure of a basic R command:
+
+variable <- function(argument)
+
+### List of useful functions to create & explore data structure
+
+**These functions are preloaded in Base R, so they do not require you to load  any additional packages to run them**
+
+* Basic mathematical functions for summary statistics
+
+    + `sum()`
+    
+    + `mean()`
+    
+    + `min()`
+    
+    + `max()`
+    
+    + `sd()`
+    
+    + `median()`
+    
+    + `summary()`
+    
+* Functions to create & explore data structure in Base R
+
+    + `c()` - concatenate function
+    + `:` - colon operator for sequence generation
+    + `seq()` - sequence generation
+    + `rep()` - replicate elements of vectors and lists
+    + `View()` - invoke a data viewer
+    + `length()` - length of an object
+    + `class()` - object class
+    + `head()` - return the first 6 rows of an object
+    + `tail()` - return the last last 6 rows an object
+    + `dim()` - returns the dimensions of an object 
+    + `nrow()` - number of rows
+    + `ncol()` - number of columns
+    + `str()` - display the structure of each column of an object
+    + `names()` - display the names of an object, typically the column names
+    + `nlevels()` - categorial levels within an object
+    + `cbind()` - combine objects by columns
+    + `rbind()` - combine objects by rows
+
+**The above functions are super useful when initially exploring data, you will use them throughout the course**
+
+
+### End of Exercise 2 
