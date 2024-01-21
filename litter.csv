@@ -1,0 +1,37 @@
+"","date","site_description","transect","transect_length_m","cig_count","other_lit_count","total_count","total_mass_g"
+"1",2023-05-23,"lagoon rd","1",322,5,27,32,16.97
+"2",2023-05-23,"lagoon rd","1",322,5,20,25,33.01
+"3",2023-05-23,"lagoon rd","1",322,6,8,14,10.67
+"4",2023-05-23,"lagoon-ucen","2",96,17,65,82,89.61
+"5",2023-05-23,"lagoon-ucen","2",96,2,12,14,8.45
+"6",2023-05-23,"lagoon-ucen","2",96,4,40,44,29.34
+"7",2023-05-23,"physics-quad","3",161,2,12,14,143.04
+"8",2023-05-23,"physics-quad","3",161,0,20,20,25.13
+"9",2023-05-23,"physics-quad","3",161,0,6,6,3.14
+"10",2023-05-23,"goleta beach-sand","4",107,0,29,29,9.44
+"11",2023-05-23,"goleta beach-sand","4",107,1,26,27,12.19
+"12",2023-05-23,"goleta beach-sand","4",107,0,6,6,194.01
+"13",2023-05-23,"goleta beach-picnic low density","5",91,0,56,56,16.24
+"14",2023-05-23,"goleta beach-picnic low density","5",91,1,15,16,3.16
+"15",2023-05-23,"goleta beach-picnic low density","5",91,0,14,14,1.49
+"16",2023-05-23,"goleta beach-parking lot","6",59,3,45,48,18.24
+"17",2023-05-23,"goleta beach-parking lot","6",59,4,13,17,4.29
+"18",2023-05-23,"goleta beach-parking lot","6",59,0,4,4,3.69
+"19",2023-05-23,"goleta beach-picnic high density","7",20,2,117,119,20.29
+"20",2023-05-23,"goleta beach-picnic high density","7",20,1,16,17,9.29
+"21",2023-05-23,"goleta beach-picnic high density","7",20,0,18,18,6.1
+"22",2025-05-25,"kerr arbor - campus","8",322,0,22,22,23.83
+"23",2025-05-25,"kerr arbor - campus","8",322,0,30,30,19.47
+"24",2025-05-25,"kerr arbor - campus","8",322,0,9,9,6.41
+"25",2025-05-25,"reccen bike path - campus","9",161,3,47,50,56.92
+"26",2025-05-25,"reccen bike path - campus","9",161,1,43,44,38.58
+"27",2025-05-25,"reccen bike path - campus","9",161,3,33,36,57.17
+"28",2025-05-25,"picasso - isla vista","10",123,1,37,38,58.04
+"29",2025-05-25,"picasso - isla vista","10",123,3,40,43,32.07
+"30",2025-05-25,"picasso - isla vista","10",123,6,25,31,22.34
+"31",2025-05-25,"pardall - isla vista","11",109,18,89,107,83.3
+"32",2025-05-25,"pardall - isla vista","11",109,2,50,52,38.98
+"33",2025-05-25,"pardall - isla vista","11",109,0,42,42,11.82
+"34",2025-05-25,"dp - isla vista","12",79,0,154,154,130.96
+"35",2025-05-25,"dp - isla vista","12",79,1,38,39,29.17
+"36",2025-05-25,"dp - isla vista","12",79,0,10,10,2.48
