@@ -1,0 +1,782 @@
+"","city","bedrooms","bathrooms","sq_ft","price"
+"1","Arroyo Grande",3,3,2371,795000
+"2","Paso Robles",4,3,2818,399000
+"3","Paso Robles",4,3,3032,545000
+"4","Morro Bay",4,4,3540,909000
+"5","Santa Maria-Orcutt",3,1,1249,109900
+"6","Oceano",3,3,1800,324900
+"7","Santa Maria-Orcutt",4,2,1603,192900
+"8","Santa Maria-Orcutt",3,2,1450,215000
+"9","Morro Bay",4,3,3360,999000
+"10","Atascadero",3,2,1323,319000
+"11","Santa Maria-Orcutt",3,2,1750,350000
+"12","Santa Maria-Orcutt",3,2,1400,249000
+"13","Arroyo Grande",2,2,1257,299000
+"14","Santa Maria-Orcutt",3,2,1400,235900
+"15","Santa Maria-Orcutt",3,2,1600,348000
+"16","Paso Robles",4,3,1794,314000
+"17","Los Alamos",4,2,1850,399000
+"18","San Miguel",3,3,2950,599000
+"19","Paso Robles",3,2,1719,299000
+"20","San Luis Obispo",3,3,1472,425000
+"21","Morro Bay",4,3,4168,1100000
+"22","Cayucos",3,3,3880,1500000
+"23","Santa Maria-Orcutt",2,1,1000,110000
+"24","Santa Maria-Orcutt",3,2,1139,200000
+"25","Santa Maria-Orcutt",3,1,1080,134900
+"26","Santa Maria-Orcutt",4,3,2000,250000
+"27","Pismo Beach",3,4,1920,950000
+"28","Santa Maria-Orcutt",4,2,1348,239950
+"29","Santa Maria-Orcutt",3,2,1280,170000
+"30","Santa Maria-Orcutt",3,2,2400,285000
+"31","Santa Maria-Orcutt",3,3,1700,279000
+"32","Santa Maria-Orcutt",3,2,1600,219000
+"33","Santa Maria-Orcutt",3,2,1050,155000
+"34","Atascadero",3,2,1415,389000
+"35","Nipomo",3,1,1110,340000
+"36","Guadalupe",2,1,797,95000
+"37","Santa Maria-Orcutt",2,2,1100,140000
+"38","Pismo Beach",3,3,2602,1100000
+"39","Santa Maria-Orcutt",4,3,2351,360000
+"40","Morro Bay",3,3,1350,415000
+"41","Santa Maria-Orcutt",4,2,1206,250000
+"42","Santa Maria-Orcutt",3,3,2628,559000
+"43","Nipomo",3,3,2365,525000
+"44","Los Osos",3,3,2990,779000
+"45","Arroyo Grande",3,2,1750,595000
+"46","Templeton",4,5,5500,1150000
+"47","Templeton",3,2,1852,550000
+"48","Grover Beach",3,2,2100,500000
+"49","Santa Maria-Orcutt",4,3,2580,279000
+"50","Santa Maria-Orcutt",4,2,1963,375000
+"51","Santa Maria-Orcutt",3,3,1900,330000
+"52","Santa Maria-Orcutt",3,3,1450,199000
+"53","Santa Maria-Orcutt",2,2,1000,165000
+"54","Templeton",4,3,6500,1399000
+"55","Santa Maria-Orcutt",3,2,1218,255000
+"56","Cambria",2,2,893,325000
+"57","Morro Bay",3,3,2100,789000
+"58","Nipomo",4,3,2341,498000
+"59","Nipomo",4,2,2168,430000
+"60","Paso Robles",4,3,3032,539900
+"61","Pismo Beach",3,2,1293,499000
+"62","Los Osos",3,2,1200,275000
+"63","Santa Maria-Orcutt",3,4,2250,499000
+"64","Morro Bay",3,3,2430,899000
+"65","Morro Bay",3,3,2100,1045000
+"66","Morro Bay",2,2,1550,774000
+"67","Santa Maria-Orcutt",3,3,1800,239000
+"68","Santa Maria-Orcutt",3,2,1218,195000
+"69","Grover Beach",2,1,768,325000
+"70","Nipomo",4,2,1929,320000
+"71","Santa Maria-Orcutt",4,3,1877,275000
+"72","Paso Robles",3,2,1700,329000
+"73","Santa Maria-Orcutt",3,2,1080,140000
+"74","Paso Robles",4,3,2192,409000
+"75","Santa Maria-Orcutt",3,2,1296,167900
+"76","Nipomo",7,5,2688,325000
+"77","Santa Maria-Orcutt",1,1,900,119000
+"78","Santa Maria-Orcutt",4,2,1482,245000
+"79","Santa Maria-Orcutt",3,2,1726,259900
+"80","Arroyo Grande",3,2,1486,495000
+"81","San Luis Obispo",4,2,1543,399000
+"82","Santa Maria-Orcutt",4,2,1367,329700
+"83","Atascadero",1,1,712,199000
+"84","Santa Maria-Orcutt",3,2,1040,149000
+"85","Paso Robles",3,2,1456,225000
+"86","Santa Maria-Orcutt",2,1,811,195000
+"87","Paso Robles",3,3,1951,359900
+"88","Templeton",4,4,3100,799000
+"89","San Luis Obispo",3,2,2117,595000
+"90","Paso Robles",3,2,1560,89000
+"91","Santa Maria-Orcutt",3,1,1042,129900
+"92","Los Osos",3,3,1519,375000
+"93","Atascadero",3,2,2774,599000
+"94","Paso Robles",3,2,1340,235000
+"95","Santa Maria-Orcutt",3,2,1440,255900
+"96","Santa Maria-Orcutt",5,2,1064,148900
+"97","Arroyo Grande",3,2,2145,749000
+"98","Santa Maria-Orcutt",3,2,1472,189900
+"99","Paso Robles",3,1,888,183000
+"100","Santa Maria-Orcutt",3,3,1582,232600
+"101","Cambria",3,2,1680,520000
+"102","Solvang",3,3,1702,355000
+"103","Pismo Beach",0,1,398,275000
+"104","Santa Maria-Orcutt",4,3,1940,225000
+"105","Santa Maria-Orcutt",3,2,1200,161900
+"106","Santa Maria-Orcutt",3,3,2013,249999
+"107","Santa Maria-Orcutt",2,1,1267,208000
+"108","Guadalupe",3,1,1100,135000
+"109","San Luis Obispo",2,3,1389,385000
+"110","Atascadero",4,4,3387,750000
+"111","Atascadero",4,3,3305,810000
+"112","Atascadero",4,5,4229,890000
+"113","Atascadero",4,3,3676,895000
+"114","San Miguel",3,2,1458,229900
+"115","Grover Beach",2,2,1020,240000
+"116","Atascadero",4,3,2513,429000
+"117","Santa Maria-Orcutt",4,3,2800,399000
+"118","Santa Maria-Orcutt",3,2,2000,385000
+"119","Paso Robles",3,2,1316,294900
+"120","Paso Robles",3,2,1220,399000
+"121","Santa Maria-Orcutt",3,3,1780,269000
+"122","Cambria",3,3,2120,449000
+"123","Arroyo Grande",5,3,2947,555900
+"124","Paso Robles",4,2,2135,319900
+"125","Cambria",4,4,1872,332000
+"126","Bradley",4,5,3400,499000
+"127","Paso Robles",4,3,3113,432000
+"128","Arroyo Grande",2,1,827,199000
+"129","Santa Maria-Orcutt",2,2,1500,29000
+"130","Atascadero",3,2,1270,299000
+"131","Santa Maria-Orcutt",4,3,1857,259000
+"132","Los Osos",1,1,538,99000
+"133","Avila Beach",2,2,1223,779000
+"134","Avila Beach",2,2,1223,839000
+"135","Santa Ynez",3,2,1746,525000
+"136","Santa Ynez",3,2,2092,795000
+"137","Santa Maria-Orcutt",4,2,2000,337000
+"138","Oceano",2,1,750,164900
+"139","San Luis Obispo",2,3,1650,449000
+"140","Guadalupe",2,2,797,94000
+"141","Pismo Beach",3,3,2266,899000
+"142","Santa Maria-Orcutt",3,2,1280,180000
+"143","Bradley",3,2,1092,194900
+"144","Los Osos",3,2,1509,350000
+"145","King City",3,3,1793,167770
+"146","Creston",3,2,1705,309900
+"147","Templeton",2,3,2100,479000
+"148","Los Alamos",3,2,1582,350000
+"149","Grover Beach",3,2,1470,350000
+"150","Santa Maria-Orcutt",3,2,1424,275000
+"151","Paso Robles",4,3,2277,379000
+"152","King City",4,2,3368,155900
+"153","San Miguel",3,2,1458,229000
+"154","Pismo Beach",2,3,1749,604995
+"155","Pismo Beach",3,3,1996,599000
+"156","Morro Bay",3,2,1008,359000
+"157","Lompoc",4,2,1527,199000
+"158","Paso Robles",3,2,1440,164900
+"159","Coalinga",3,2,1815,179000
+"160","Paso Robles",4,2,2064,370000
+"161","Santa Ynez",5,4,2402,999000
+"162","Paso Robles",3,3,2136,365000
+"163","San Miguel",3,2,1498,345000
+"164","Paso Robles",2,1,1068,299000
+"165","Pismo Beach",2,1,634,519500
+"166","Buellton",4,4,3000,645000
+"167","Santa Maria-Orcutt",3,2,1218,242500
+"168","Santa Maria-Orcutt",3,3,1300,259900
+"169","Santa Maria-Orcutt",4,3,2014,310000
+"170","Atascadero",2,2,1463,450000
+"171","Santa Maria-Orcutt",2,2,1541,220000
+"172","San Luis Obispo",3,2,1268,585000
+"173","Santa Maria-Orcutt",5,4,2400,324000
+"174","Cambria",1,1,551,375000
+"175","Paso Robles",3,2,1420,329000
+"176","Paso Robles",5,3,2764,599900
+"177","Santa Maria-Orcutt",2,2,1014,74900
+"178","Los Osos",3,2,1120,285000
+"179","Santa Maria-Orcutt",3,3,3400,751900
+"180","Santa Maria-Orcutt",3,2,1386,295000
+"181","Coalinga",3,2,1320,170000
+"182","Santa Maria-Orcutt",3,2,1376,197000
+"183","Oceano",3,3,2586,1250000
+"184","Paso Robles",3,2,1662,249000
+"185","Nipomo",2,2,1033,179000
+"186","Santa Maria-Orcutt",3,1,1050,132000
+"187","Lockwood",3,2,1500,425000
+"188","Santa Maria-Orcutt",5,3,2500,290000
+"189","Los Osos",2,2,896,150000
+"190","Los Osos",2,2,896,150000
+"191","Los Osos",2,2,896,150000
+"192","Los Osos",2,2,896,150000
+"193","Los Osos",2,2,896,150000
+"194","Los Osos",2,2,1388,205000
+"195","Atascadero",4,3,3120,599000
+"196","Paso Robles",3,3,1352,269000
+"197","Santa Maria-Orcutt",4,3,1963,249000
+"198","Santa Maria-Orcutt",3,3,1541,235000
+"199","Grover Beach",4,3,2449,469000
+"200","Nipomo",4,2,1660,159000
+"201","King City",3,1,936,69900
+"202","Arroyo Grande",5,7,6800,1499000
+"203","Atascadero",3,2,1022,239000
+"204","Atascadero",3,2,1665,399500
+"205","Paso Robles",3,2,1209,299900
+"206","Lompoc",3,2,1700,275000
+"207","Morro Bay",4,2,1736,395000
+"208","Santa Maria-Orcutt",1,1,731,105000
+"209","Santa Maria-Orcutt",3,2,1086,179999
+"210","Santa Maria-Orcutt",3,2,1131,219000
+"211","Solvang",3,3,1500,325000
+"212","Atascadero",4,3,3827,829900
+"213","Santa Maria-Orcutt",2,1,1100,165000
+"214","Santa Maria-Orcutt",3,2,1398,179000
+"215","Paso Robles",3,2,1381,279000
+"216","Atascadero",4,4,3387,820000
+"217","Paso Robles",2,1,1250,399000
+"218","San Miguel",3,1,965,164900
+"219","Santa Maria-Orcutt",4,2,1860,235000
+"220","Arroyo Grande",4,5,5411,1900000
+"221","Nipomo",3,2,1367,289000
+"222","Paso Robles",3,2,1640,355000
+"223","Santa Maria-Orcutt",3,2,1269,199000
+"224","Santa Maria-Orcutt",3,2,1275,209000
+"225","Lompoc",3,1,912,186900
+"226","Santa Maria-Orcutt",4,2,1460,240000
+"227","Nipomo",2,2,2000,515000
+"228","Santa Maria-Orcutt",4,2,1750,215000
+"229","Santa Maria-Orcutt",4,4,3050,399900
+"230","Paso Robles",4,3,2371,369000
+"231","Paso Robles",2,2,1292,250000
+"232","Paso Robles",3,2,1640,259000
+"233","Santa Maria-Orcutt",2,2,1082,180000
+"234","Solvang",3,2,1522,399900
+"235","Arroyo Grande",3,2,1535,385000
+"236","Santa Maria-Orcutt",2,2,1100,154000
+"237","San Luis Obispo",2,2,966,254900
+"238","Paso Robles",4,2,1653,315000
+"239","Santa Maria-Orcutt",3,3,2523,437500
+"240","Santa Maria-Orcutt",3,3,2511,299900
+"241","Arroyo Grande",3,3,1772,399000
+"242","Paso Robles",3,3,1889,330000
+"243","Arroyo Grande",2,2,880,279000
+"244","Santa Maria-Orcutt",3,2,1400,248000
+"245","Santa Maria-Orcutt",3,3,1494,209000
+"246","Los Osos",3,2,1844,729000
+"247","Atascadero",4,3,1900,454500
+"248","Paso Robles",3,2,1176,249000
+"249","Nipomo",3,5,4463,1700000
+"250","Grover Beach",3,2,1635,349000
+"251","Grover Beach",3,3,2095,575000
+"252","Santa Maria-Orcutt",3,2,1300,185000
+"253","Santa Maria-Orcutt",3,2,1200,165000
+"254","Morro Bay",0,1,910,311900
+"255","Santa Maria-Orcutt",3,2,1600,175000
+"256","Lompoc",4,2,1332,180000
+"257","Santa Maria-Orcutt",2,2,1680,78000
+"258","Oceano",2,1,1313,142900
+"259","Atascadero",4,4,3744,850000
+"260","Paso Robles",3,2,1998,389000
+"261","Santa Maria-Orcutt",3,3,2714,641900
+"262","Templeton",4,2,1797,305000
+"263","Paso Robles",3,3,1687,260000
+"264","Paso Robles",3,2,1663,320000
+"265","Atascadero",2,1,792,199000
+"266","Santa Maria-Orcutt",2,2,1410,299000
+"267","Buellton",2,2,1085,289000
+"268","Santa Maria-Orcutt",3,3,1900,229900
+"269","Atascadero",4,3,3305,865000
+"270","Atascadero",4,4,3962,900000
+"271","Atascadero",2,3,1260,199000
+"272","Santa Maria-Orcutt",2,3,1200,160000
+"273","Santa Maria-Orcutt",3,3,2400,299000
+"274","Oceano",3,3,1265,300000
+"275","Santa Maria-Orcutt",4,2,1460,270000
+"276","Nipomo",3,3,1894,490000
+"277","Santa Maria-Orcutt",3,3,1800,295000
+"278","Paso Robles",3,2,1550,225000
+"279","Atascadero",2,2,1426,324900
+"280","Santa Maria-Orcutt",3,2,1110,165000
+"281","Santa Maria-Orcutt",3,2,1075,157900
+"282","Nipomo",3,2,1756,299000
+"283","Paso Robles",3,3,2150,369000
+"284","Santa Maria-Orcutt",4,2,1650,233000
+"285","Santa Maria-Orcutt",2,2,1200,109900
+"286","Paso Robles",3,2,1488,309000
+"287","Pismo Beach",4,4,3609,1799000
+"288","Santa Maria-Orcutt",2,2,1113,209900
+"289","Solvang",3,2,1600,499000
+"290","Arroyo Grande",4,2,1961,525000
+"291","Los Osos",3,3,3249,650000
+"292","Morro Bay",3,3,1510,529000
+"293","Santa Maria-Orcutt",3,2,1300,179000
+"294","Lompoc",3,3,1736,282000
+"295","Templeton",4,3,3008,899000
+"296","Santa Maria-Orcutt",3,2,1850,130000
+"297","Santa Maria-Orcutt",3,2,1146,205000
+"298","Santa Maria-Orcutt",2,2,1100,180900
+"299","Atascadero",4,4,2135,409900
+"300","Atascadero",4,4,2135,409900
+"301","Grover Beach",3,2,1827,469000
+"302","Arroyo Grande",3,1,1005,289000
+"303","Santa Maria-Orcutt",2,3,1800,99999
+"304","Santa Maria-Orcutt",5,3,3307,445000
+"305","Atascadero",3,3,2160,640000
+"306","San Miguel",3,2,1062,185000
+"307","Santa Maria-Orcutt",4,2,1102,210000
+"308","Santa Maria-Orcutt",3,2,1215,199900
+"309","Santa Maria-Orcutt",3,2,1600,225000
+"310","Paso Robles",4,2,2161,369900
+"311","Santa Maria-Orcutt",3,2,1686,120000
+"312","Paso Robles",2,1,1000,199000
+"313","Arroyo Grande",3,3,2600,520000
+"314","Paso Robles",5,3,3150,579000
+"315","Santa Maria-Orcutt",4,2,1257,300000
+"316","Arroyo Grande",3,2,1171,325000
+"317","Santa Maria-Orcutt",3,2,1144,225000
+"318","Atascadero",2,1,1160,395000
+"319","Santa Maria-Orcutt",4,3,2300,399000
+"320","Lompoc",3,2,1144,165000
+"321","Arroyo Grande",3,2,1368,374900
+"322","Santa Maria-Orcutt",3,2,1238,199900
+"323","Arroyo Grande",3,1,1056,365000
+"324","Santa Maria-Orcutt",2,2,1086,222900
+"325","Los Osos",2,1,720,249900
+"326","Paso Robles",3,2,1426,290000
+"327","Santa Maria-Orcutt",4,2,1361,170500
+"328","Atascadero",3,3,2344,560000
+"329","Nipomo",4,2,1925,339900
+"330","Nipomo",4,3,2600,550000
+"331","San Miguel",4,2,1601,269900
+"332","Paso Robles",3,2,1395,350000
+"333","Los Osos",2,2,1042,214000
+"334","Santa Maria-Orcutt",3,2,1200,299900
+"335","Nipomo",2,2,1248,139500
+"336","Lompoc",4,3,3000,360000
+"337","Paso Robles",3,2,1300,315000
+"338","Paso Robles",3,2,1244,279900
+"339","Paso Robles",4,2,2139,399000
+"340","Atascadero",4,3,2450,475000
+"341","Santa Maria-Orcutt",2,2,840,65900
+"342","Coalinga",4,3,1878,212000
+"343","San Miguel",3,2,1350,180000
+"344","Santa Maria-Orcutt",4,2,1377,210000
+"345","Buellton",3,3,1475,375000
+"346","Atascadero",2,2,894,106900
+"347","Paso Robles",3,2,1550,221830
+"348","Nipomo",3,2,1106,239000
+"349","Atascadero",1,1,594,187500
+"350","Los Alamos",5,3,3200,445000
+"351","Santa Maria-Orcutt",3,2,1906,309000
+"352","Santa Maria-Orcutt",3,2,2004,315000
+"353","Santa Maria-Orcutt",3,1,1200,191100
+"354","Cambria",5,3,1818,699900
+"355","Nipomo",2,2,1040,189500
+"356","Santa Maria-Orcutt",4,2,1400,199000
+"357","Santa Maria-Orcutt",4,3,2209,359000
+"358","Atascadero",3,1,1030,264450
+"359","Templeton",3,2,1999,459000
+"360","Santa Maria-Orcutt",3,2,1316,150000
+"361","Pismo Beach",3,3,2200,875000
+"362","Pismo Beach",2,2,1200,599000
+"363","Atascadero",3,3,1261,250000
+"364","Lompoc",3,2,1120,165000
+"365","Santa Maria-Orcutt",4,3,1857,229900
+"366","Santa Maria-Orcutt",3,2,1400,229900
+"367","Paso Robles",3,2,1139,269900
+"368","Santa Maria-Orcutt",5,3,6098,245000
+"369","Santa Maria-Orcutt",3,2,1300,165000
+"370","Lompoc",3,3,2041,429000
+"371","Santa Maria-Orcutt",4,3,2248,309900
+"372","Arroyo Grande",2,1,972,265000
+"373","Santa Maria-Orcutt",4,2,1500,169900
+"374","Santa Maria-Orcutt",3,2,2000,380900
+"375","Santa Maria-Orcutt",4,3,1939,315000
+"376","Lompoc",3,2,1413,260000
+"377","Santa Maria-Orcutt",3,2,1312,119900
+"378","Santa Maria-Orcutt",3,2,1275,211500
+"379","Santa Maria-Orcutt",2,1,854,149000
+"380","San Luis Obispo",3,3,3474,890000
+"381","Cambria",3,2,1380,289900
+"382","Santa Maria-Orcutt",4,3,2100,289000
+"383","Oceano",3,2,1487,399900
+"384","Santa Maria-Orcutt",3,2,900,125000
+"385","Nipomo",5,3,3036,359900
+"386","Santa Maria-Orcutt",3,3,1800,239000
+"387","Santa Maria-Orcutt",3,3,1600,199900
+"388","Santa Maria-Orcutt",4,3,2150,179900
+"389","Santa Maria-Orcutt",3,2,1300,195000
+"390","San Luis Obispo",2,2,896,299000
+"391","Santa Maria-Orcutt",2,3,1700,265000
+"392","Nipomo",3,2,1700,699000
+"393","Grover Beach",2,2,1194,275000
+"394","Paso Robles",3,2,1465,169990
+"395","Santa Maria-Orcutt",3,3,1530,189000
+"396","Santa Ynez",4,2,2032,695000
+"397","Santa Maria-Orcutt",2,2,1088,105000
+"398","Santa Maria-Orcutt",4,4,4000,365000
+"399","Paso Robles",3,3,1296,335900
+"400","Lompoc",3,2,944,170000
+"401","Santa Maria-Orcutt",4,2,2100,339900
+"402","Santa Maria-Orcutt",3,3,2340,359900
+"403","Santa Maria-Orcutt",3,2,1080,143000
+"404","Santa Maria-Orcutt",3,2,1196,199000
+"405","San Luis Obispo",3,3,1365,374800
+"406","Los Osos",3,2,2120,499000
+"407","Atascadero",2,1,1055,138900
+"408","Avila Beach",4,5,5307,1999000
+"409","Paso Robles",3,2,1774,359000
+"410","Santa Maria-Orcutt",4,2,1856,294900
+"411","Atascadero",4,2,1836,299500
+"412","Santa Maria-Orcutt",4,3,2367,427900
+"413","Nipomo",3,2,1181,269000
+"414","Bradley",3,3,2563,449000
+"415","Santa Maria-Orcutt",2,2,1130,144900
+"416","Santa Maria-Orcutt",3,3,2020,345000
+"417","Paso Robles",4,2,1240,239000
+"418","Los Osos",2,1,780,310000
+"419","Santa Maria-Orcutt",3,3,1800,225000
+"420","Paso Robles",5,6,3750,695000
+"421","Nipomo",3,3,1650,242500
+"422","Arroyo Grande",2,1,728,249250
+"423","Grover Beach",3,2,1462,479000
+"424","Lompoc",3,2,1150,169900
+"425","Santa Maria-Orcutt",3,3,1660,219900
+"426","Paso Robles",2,2,1440,150000
+"427","Nipomo",4,2,1814,649000
+"428","Santa Maria-Orcutt",4,3,2100,285000
+"429","Paso Robles",3,2,1488,163999
+"430","Nipomo",4,2,1718,349000
+"431","Buellton",3,2,1716,409900
+"432","Los Osos",3,2,1320,275000
+"433","Santa Maria-Orcutt",3,2,1200,179900
+"434","Oceano",3,3,2218,789000
+"435","Santa Maria-Orcutt",4,3,1768,299000
+"436","Arroyo Grande",5,4,3588,850000
+"437","Santa Maria-Orcutt",3,2,1776,295900
+"438","Santa Maria-Orcutt",4,3,1467,199000
+"439","Santa Maria-Orcutt",3,3,1950,199900
+"440","Santa Maria-Orcutt",3,2,1288,179900
+"441","Atascadero",3,3,1733,290000
+"442","Santa Maria-Orcutt",3,2,1128,168000
+"443","Santa Maria-Orcutt",3,3,1900,270000
+"444","Los Osos",6,7,5103,1249000
+"445","Santa Maria-Orcutt",3,2,1255,240000
+"446","Coalinga",5,2,1802,219500
+"447","Santa Maria-Orcutt",4,3,2336,235000
+"448","San Luis Obispo",2,2,1190,239800
+"449","Santa Maria-Orcutt",3,3,1800,269000
+"450","Paso Robles",4,3,2006,319200
+"451","Paso Robles",3,2,2446,402500
+"452","Paso Robles",3,2,2114,425000
+"453","Atascadero",3,3,2600,669000
+"454","Atascadero",3,2,1514,369000
+"455","Paso Robles",3,2,1080,239900
+"456","Grover Beach",2,2,1088,249500
+"457","Solvang",4,2,1809,557000
+"458","Santa Maria-Orcutt",6,3,2053,339900
+"459","Nipomo",2,2,969,149900
+"460","Arroyo Grande",3,4,3375,849900
+"461","Lompoc",3,2,1594,307000
+"462","Santa Maria-Orcutt",4,3,1900,259000
+"463","Santa Maria-Orcutt",3,2,1050,165000
+"464","Santa Maria-Orcutt",3,2,1414,289900
+"465","Nipomo",3,4,3698,879000
+"466","Santa Maria-Orcutt",3,2,1200,220000
+"467","Atascadero",3,3,1685,309000
+"468","Paso Robles",3,3,2271,580000
+"469","Santa Maria-Orcutt",2,2,1150,459900
+"470","Santa Maria-Orcutt",5,3,2481,299000
+"471","Santa Maria-Orcutt",4,3,1600,309900
+"472","Paso Robles",3,2,1269,287000
+"473","Grover Beach",3,2,1200,310000
+"474","Atascadero",3,2,1198,229900
+"475","Buellton",3,2,1363,377000
+"476","Lompoc",4,2,1973,295000
+"477","Santa Maria-Orcutt",3,2,1516,225000
+"478","Santa Maria-Orcutt",3,2,1080,130000
+"479","Santa Maria-Orcutt",2,1,920,169990
+"480","Santa Maria-Orcutt",3,2,1027,145000
+"481","Greenfield",4,2,2018,184800
+"482","Santa Maria-Orcutt",3,2,1253,189900
+"483","Santa Maria-Orcutt",3,2,1062,249000
+"484","Santa Maria-Orcutt",4,2,1934,185000
+"485","Atascadero",2,2,1041,145000
+"486","Paso Robles",5,3,2700,429000
+"487","Arroyo Grande",2,2,1587,419000
+"488","Santa Maria-Orcutt",3,3,1859,245000
+"489","Santa Maria-Orcutt",4,3,2400,289900
+"490","Santa Maria-Orcutt",3,2,1110,175000
+"491","Santa Maria-Orcutt",3,2,1075,139000
+"492","Arroyo Grande",4,3,2035,514900
+"493","Pismo Beach",3,2,1858,549000
+"494","Atascadero",3,3,1261,235000
+"495","Atascadero",6,3,2628,399000
+"496","Los Osos",3,2,1120,259900
+"497","Lompoc",3,2,1686,350900
+"498","Nipomo",4,4,5190,1399900
+"499","Santa Maria-Orcutt",3,2,1840,399000
+"500","Solvang",3,2,1204,399000
+"501","Atascadero",2,1,973,199000
+"502","Santa Maria-Orcutt",3,2,1622,350000
+"503","Nipomo",4,2,2125,296800
+"504","Santa Maria-Orcutt",3,2,1204,165000
+"505","Santa Maria-Orcutt",3,3,1750,210000
+"506","San Miguel",3,2,1458,229000
+"507","San Miguel",3,2,1184,199500
+"508","Santa Maria-Orcutt",3,2,1000,110000
+"509","Paso Robles",3,3,1197,264900
+"510","Atascadero",3,3,2135,449900
+"511","Santa Maria-Orcutt",3,2,1114,159900
+"512","Paso Robles",4,2,1870,429000
+"513","Grover Beach",1,1,566,265000
+"514","Nipomo",2,2,1134,279900
+"515","Santa Maria-Orcutt",3,2,1100,174900
+"516","Lompoc",4,2,1144,158900
+"517","Santa Maria-Orcutt",3,2,1349,150000
+"518","Buellton",3,3,1281,269000
+"519","Atascadero",3,3,1957,489900
+"520","Santa Maria-Orcutt",4,2,1174,256000
+"521","Atascadero",4,3,2400,335000
+"522","Morro Bay",3,2,1236,435000
+"523","Santa Maria-Orcutt",3,3,1910,280000
+"524","Paso Robles",4,2,2064,409000
+"525","Paso Robles",4,2,2064,409000
+"526","Paso Robles",4,3,1888,399000
+"527","Paso Robles",4,2,1862,389000
+"528","Nipomo",3,2,1106,222600
+"529","Santa Maria-Orcutt",3,2,1200,140000
+"530","Soledad",5,3,2408,220000
+"531","Nipomo",3,3,2703,650000
+"532","Lompoc",3,2,1728,405000
+"533","Paso Robles",3,2,1960,409000
+"534","Santa Maria-Orcutt",3,2,1092,164900
+"535","Santa Margarita",1,1,628,59900
+"536","Santa Maria-Orcutt",3,2,1275,199900
+"537","Atascadero",2,1,756,95000
+"538","Oceano",2,2,885,170000
+"539","San Miguel",4,4,3531,720000
+"540","Santa Maria-Orcutt",3,2,1712,204000
+"541","Santa Maria-Orcutt",3,2,1100,220000
+"542","Buellton",4,3,1500,498900
+"543","Santa Maria-Orcutt",3,2,1671,229900
+"544","San Luis Obispo",3,2,1668,531905
+"545","Santa Maria-Orcutt",2,1,775,114900
+"546","Guadalupe",3,2,1200,145000
+"547","Lompoc",4,2,1237,191330
+"548","Lompoc",4,2,1338,199900
+"549","Santa Maria-Orcutt",4,3,2100,266800
+"550","San Miguel",2,2,1222,84900
+"551","Santa Maria-Orcutt",3,2,1807,250000
+"552","Santa Maria-Orcutt",4,2,1352,220000
+"553","Lompoc",3,2,1503,227900
+"554","Buellton",4,2,1571,384900
+"555","Paso Robles",4,3,2502,529000
+"556","Santa Maria-Orcutt",3,2,1526,159900
+"557","Atascadero",3,2,1007,199000
+"558","Lompoc",3,3,1306,125000
+"559","Bakersfield",3,2,1313,91500
+"560","Santa Maria-Orcutt",3,2,1593,155000
+"561","Paso Robles",3,3,2203,409000
+"562","Atascadero",5,4,5200,949000
+"563","Atascadero",2,1,756,90000
+"564","Santa Maria-Orcutt",3,3,2328,300000
+"565","Santa Maria-Orcutt",3,2,1008,179900
+"566","Grover Beach",3,2,1346,349000
+"567","Nipomo",3,2,1112,220000
+"568","Santa Maria-Orcutt",3,2,1340,155000
+"569","Paso Robles",4,2,2236,390000
+"570","Santa Maria-Orcutt",5,4,3039,425000
+"571","Santa Maria-Orcutt",3,2,1733,249900
+"572","Santa Maria-Orcutt",4,3,1947,239000
+"573","Buellton",4,3,1868,395000
+"574","Buellton",3,3,1475,375000
+"575","Buellton",4,3,1868,395000
+"576","Buellton",4,3,1868,395000
+"577","Santa Maria-Orcutt",4,3,1927,230000
+"578","Santa Maria-Orcutt",3,2,1292,189000
+"579","Paso Robles",3,2,1657,304900
+"580","Santa Maria-Orcutt",3,2,1300,169900
+"581","Santa Maria-Orcutt",3,2,1700,286500
+"582","San Miguel",4,2,2400,325000
+"583","Grover Beach",3,2,1278,375000
+"584","Paso Robles",3,2,1396,278000
+"585","Paso Robles",3,2,1368,149000
+"586","Santa Maria-Orcutt",3,2,1520,209000
+"587","Santa Maria-Orcutt",2,2,900,95000
+"588","Santa Maria-Orcutt",3,2,1407,199900
+"589","Santa Maria-Orcutt",3,2,1170,185000
+"590","Lompoc",4,3,3035,449900
+"591","Santa Maria-Orcutt",5,4,2900,310000
+"592","Santa Maria-Orcutt",4,2,1656,239900
+"593","Santa Maria-Orcutt",2,2,980,187900
+"594","Arroyo Grande",3,2,1916,450000
+"595","San Luis Obispo",3,3,1756,440000
+"596","Santa Maria-Orcutt",3,2,1278,260000
+"597","New Cuyama",3,1,1201,40900
+"598","Paso Robles",3,2,1275,249000
+"599","Atascadero",3,3,2000,349000
+"600","Santa Maria-Orcutt",3,2,1200,175000
+"601","Atascadero",3,2,2000,449970
+"602","Grover Beach",3,2,1902,419000
+"603","Arroyo Grande",3,3,1568,400000
+"604","Santa Maria-Orcutt",3,2,1257,185000
+"605","Santa Maria-Orcutt",2,2,1100,139900
+"606","Santa Maria-Orcutt",3,2,1461,174900
+"607","Soledad",4,2,1353,165360
+"608","Santa Maria-Orcutt",3,2,1200,169000
+"609","Santa Maria-Orcutt",3,3,2039,240000
+"610","Santa Maria-Orcutt",4,3,2150,364000
+"611","Arroyo Grande",1,1,748,250000
+"612","Santa Maria-Orcutt",4,3,1969,299900
+"613","Santa Maria-Orcutt",4,3,2357,281900
+"614","Grover Beach",3,1,1522,349900
+"615","Santa Maria-Orcutt",3,2,1850,220000
+"616","Templeton",3,4,3123,774800
+"617","Santa Maria-Orcutt",3,2,1200,135000
+"618","Lompoc",3,1,1000,149900
+"619","Paso Robles",3,2,2082,599000
+"620","Santa Maria-Orcutt",3,2,1200,179000
+"621","Santa Maria-Orcutt",3,2,1500,177000
+"622","Santa Maria-Orcutt",3,2,1500,177000
+"623","Nipomo",4,2,1248,122500
+"624","Santa Maria-Orcutt",3,2,1400,239500
+"625","Paso Robles",3,2,1080,214900
+"626","Santa Maria-Orcutt",3,2,1460,275000
+"627","Arroyo Grande",3,2,1437,425000
+"628","San Simeon",2,2,1218,274900
+"629","Nipomo",2,2,1152,175000
+"630","Morro Bay",2,2,1410,535000
+"631","Pismo Beach",2,1,817,540000
+"632","Cambria",2,2,703,389000
+"633","Paso Robles",3,2,1425,250000
+"634","Paso Robles",3,2,1807,425000
+"635","Out Of Area",5,4,3800,1195000
+"636","Los Osos",3,3,2502,1350000
+"637","Santa Maria-Orcutt",1,1,800,78500
+"638","Paso Robles",3,2,2237,549000
+"639","Santa Maria-Orcutt",4,2,1860,399900
+"640","Atascadero",10,11,4905,699000
+"641","Santa Maria-Orcutt",2,2,1200,129000
+"642","Cambria",2,2,1698,480000
+"643","Nipomo",3,1,1022,189000
+"644","Pismo Beach",3,2,2080,639900
+"645","Santa Maria-Orcutt",5,4,3000,699900
+"646","Grover Beach",3,3,3621,999000
+"647","Arroyo Grande",3,2,1570,599000
+"648","Santa Maria-Orcutt",4,2,1860,365000
+"649","Cambria",3,2,1840,359900
+"650","Arroyo Grande",4,4,3740,995000
+"651","Lompoc",4,2,1217,193450
+"652","Santa Maria-Orcutt",3,3,1520,179900
+"653","Grover Beach",3,2,1240,329900
+"654","Templeton",3,2,1936,509000
+"655","Atascadero",3,3,2044,995000
+"656","Pismo Beach",3,2,1946,545000
+"657","Pismo Beach",3,3,2028,795000
+"658","Atascadero",4,3,2700,830000
+"659","Arroyo Grande",2,1,624,54500
+"660","Arroyo Grande",3,2,1800,149000
+"661","Santa Maria-Orcutt",2,2,1056,36000
+"662","Paso Robles",3,2,1467,349000
+"663","Santa Maria-Orcutt",4,3,2150,299900
+"664","Morro Bay",4,2,2004,469000
+"665","Oceano",2,2,1044,1195000
+"666","Solvang",3,2,1576,419900
+"667","Los Osos",2,2,1536,189000
+"668","Lompoc",3,2,1082,163900
+"669","Lompoc",3,2,1237,163900
+"670","Los Osos",3,3,2193,648000
+"671","Santa Maria-Orcutt",3,2,1022,130000
+"672","Atascadero",3,2,1232,264900
+"673","Santa Maria-Orcutt",4,2,1435,189900
+"674","Santa Maria-Orcutt",4,2,1430,200000
+"675","Arroyo Grande",3,3,2480,1249000
+"676","Cayucos",3,3,1832,525000
+"677","Cambria",3,3,1953,729000
+"678","Santa Maria-Orcutt",3,2,1100,109900
+"679","Santa Maria-Orcutt",3,2,2481,850000
+"680","Santa Maria-Orcutt",3,2,1704,249500
+"681","Oceano",3,2,1161,179900
+"682","Los Osos",3,2,1440,149000
+"683","Creston",3,2,1701,549000
+"684","Atascadero",3,2,1536,435000
+"685","Atascadero",3,2,1310,299000
+"686","Los Osos",3,2,2187,625000
+"687","Santa Maria-Orcutt",4,3,2100,399000
+"688","Out Of Area",4,2,1511,186900
+"689","Cambria",3,3,2130,1290000
+"690","Solvang",2,3,1400,264900
+"691","Lompoc",3,2,1225,198900
+"692","Paso Robles",3,3,1868,318000
+"693","Cambria",4,4,3576,2000000
+"694","Cambria",2,3,2219,598000
+"695","Paso Robles",3,3,2508,439900
+"696","Pismo Beach",3,3,2817,920000
+"697","Santa Maria-Orcutt",3,2,1972,179900
+"698","Templeton",2,1,952,325000
+"699","Grover Beach",3,2,1080,369000
+"700","Santa Maria-Orcutt",3,2,1454,312900
+"701","Atascadero",3,3,1961,575000
+"702","Santa Maria-Orcutt",2,2,1344,26500
+"703","San Luis Obispo",5,6,4174,2369000
+"704","Atascadero",2,2,120,67500
+"705","San Luis Obispo",3,3,3201,1490000
+"706","Morro Bay",3,2,1427,652000
+"707","Atascadero",3,3,2100,449000
+"708","Morro Bay",3,2,2306,982800
+"709","Santa Maria-Orcutt",4,3,2100,235000
+"710","Paso Robles",4,3,3166,579900
+"711","Santa Maria-Orcutt",3,2,1280,250000
+"712","Coalinga",3,1,870,100000
+"713","Coalinga",2,1,960,125000
+"714","Cambria",2,2,919,650000
+"715","Santa Maria-Orcutt",2,2,1034,119900
+"716","San Miguel",3,2,1356,209900
+"717","Paso Robles",3,2,2380,524900
+"718","Atascadero",5,3,3000,349000
+"719","Atascadero",5,3,3000,349000
+"720","Cambria",2,3,1840,825000
+"721","Grover Beach",3,2,1189,255000
+"722","Nipomo",4,2,1336,259000
+"723","Paso Robles",2,1,832,199000
+"724","Santa Maria-Orcutt",5,3,2100,410000
+"725","Paso Robles",3,1,940,199000
+"726","Paso Robles",3,2,1344,270000
+"727","Cayucos",2,2,1437,695000
+"728","Cambria",5,4,3684,2995000
+"729","Paso Robles",1,2,300,131900
+"730","Cambria",4,3,2717,995000
+"731","Santa Maria-Orcutt",4,3,2097,250000
+"732","Arroyo Grande",5,2,1575,239800
+"733","Atascadero",6,3,2628,425000
+"734","Arroyo Grande",3,2,1750,525000
+"735","Pismo Beach",3,2,1346,459900
+"736","Atascadero",3,2,1041,229900
+"737","Out Of Area",3,2,1526,199900
+"738","Arroyo Grande",4,2,1728,599000
+"739","Santa Maria-Orcutt",4,2,1378,197600
+"740","Santa Maria-Orcutt",2,1,1145,355000
+"741","Paso Robles",3,2,1325,339900
+"742","Santa Maria-Orcutt",3,3,1850,299000
+"743","Soledad",4,2,1765,166800
+"744","Grover Beach",4,2,1631,379000
+"745","Santa Ynez",4,4,2693,1395000
+"746","Santa Maria-Orcutt",3,2,1316,150000
+"747","San Luis Obispo",3,2,1382,475000
+"748","Santa Maria-Orcutt",4,3,2300,265000
+"749","Atascadero",3,2,1617,265000
+"750","Los Osos",2,2,1150,225000
+"751","Paso Robles",2,2,1674,249900
+"752","Arroyo Grande",3,2,1543,509000
+"753","Paso Robles",2,2,1351,214900
+"754","Arroyo Grande",4,5,5060,5499000
+"755","Santa Maria-Orcutt",3,2,2000,349900
+"756","Solvang",2,2,1536,125000
+"757","Cambria",2,2,924,549000
+"758","Cambria",3,3,1860,865000
+"759","Bradley",3,3,2640,1600000
+"760","Nipomo",4,4,3395,1065000
+"761","Templeton",3,2,1850,625000
+"762","Santa Maria-Orcutt",3,2,1000,249999
+"763","Arroyo Grande",4,3,2720,975000
+"764","Oceano",2,1,992,204900
+"765","Atascadero",3,2,1737,355000
+"766","Out Of Area",3,3,1435,134900
+"767","Santa Maria-Orcutt",5,3,1671,199900
+"768","Santa Maria-Orcutt",4,3,2800,349900
+"769","Santa Maria-Orcutt",2,2,900,99000
+"770","Coalinga",4,3,2507,409000
+"771","Pismo Beach",2,2,1440,339000
+"772","San Miguel",3,3,2238,595000
+"773","Pismo Beach",3,3,2725,849500
+"774","Paso Robles",2,3,1772,399000
+"775","Paso Robles",4,2,1947,399000
+"776","Solvang",3,2,1720,525000
+"777","Paso Robles",3,3,1605,319900
+"778","Paso Robles",3,2,1877,495000
+"779","San Luis Obispo",3,2,1104,372000
+"780","Arroyo Grande",3,2,1975,589000
+"781","Cambria",3,3,2392,1100000
