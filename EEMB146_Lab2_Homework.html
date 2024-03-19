@@ -1547,11 +1547,13 @@ Long Term Ecological Research (LTER)</a> program. More details about
 specific columns can be found on the <a href="https://lter.github.io/lterdatasampler/reference/nwt_pikas.html">ltersampler
 website</a>.</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>In the data set <code>nwt_pika</code>, how many (i) rows and (ii)
-columns are there?</p></li>
+<li><p>In the data set <code>nwt_pikas</code>, how many (i) rows and
+(ii) columns are there?</p></li>
 <li><p>Using the <code>str()</code> function, how many (i) (numeric) num
-columns are there? (ii) Are there other columns you think could be
-classified as numeric?</p></li>
+columns are there and which ones are they? (ii) Are there other columns
+you think could be classified as numeric, why? If you are unsure what
+the columns are referring to look at the metadata on the <a href="https://lter.github.io/lterdatasampler/reference/nwt_pikas.html">ltersampler
+website</a>.</p></li>
 <li><p>In the factor ‘site’, how many unique levels are there and what
 are their names?</p></li>
 </ol>
@@ -1569,12 +1571,13 @@ in appropriate units.
 <ul>
 <li><em>hint: use tally(recreation_hours)</em></li>
 </ul></li>
-<li>When was the max amount of ‘recreation_visitors’? Make sure to
+<li>What was the max amount of ‘recreation_visitors’? Make sure to
 report in appropriate units.
 <ul>
 <li><em>hint: don’t forget to use na.rm = TRUE</em></li>
 </ul></li>
-<li>What is the mean number of ‘backcountry’ visitors?
+<li>What is the mean number of ‘backcountry’ visitors? Make sure to
+report in appropriate units.
 <ul>
 <li><em>hint: round up to the nearest integer, you can’t be .34 a
 backpacker</em></li>
@@ -1604,8 +1607,11 @@ found below the code chunk.</p>
 part (i.e. you should have 4 separate plots for Question 3). To get full
 credit, each bar plot must have <strong>informative labels</strong>
 (i.e. labs(x = ““, y =”“)) and <strong>clean background</strong> use the
-layer theme_*() (i.e. theme_bw() or theme_classic() or
-theme_minimal()).</p>
+layer theme_*() (i.e. theme_bw() or theme_classic() or theme_minimal()).
+To make bar plots you will have to wrangle the data (similarly in the
+exercise file) before plotting the data. If you need more examples on
+how to do this check out <a href="https://stat212-learnr.stat.illinois.edu/L5.1_dplyr_introduction/#section-plotting-within-a-pipe">data
+wrangling with pipe guide</a>.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Based on the bar plot, which <code>demographic</code> was ~20% of
 the <code>us_population_2020</code>?</p></li>
@@ -1619,9 +1625,19 @@ has highest percentage as <code>ngo_senior_staff</code>?</p>
 <li><p>Which conference had the highest percentage of Native Americans
 in attendance?</p>
 <ul>
-<li><em>hint: use select(demographic,esa_2015a:ssb_2019)</em></li>
+<li><em>hint: use select(demographic,esa_2015a:ssb_2019) and then
+filter()</em></li>
 </ul></li>
 </ol>
+<pre class="r"><code>ac_demographic %&gt;% 
+  select(demographic,esa_2015a:ssb_2019) %&gt;% 
+  filter(demographic == &quot;Native American&quot;)</code></pre>
+<pre><code>##       demographic esa_2015a esa_2015b esa_2016 esa_2017 esa_2018 esa_2019
+## 1 Native American        NA       0.3      0.3      0.3      0.2      0.3
+##   esa_2020 esa_2021 afs_2015 sfs_2017 acs_2021 mba_2011_12 mba_2020_21 sse_2019
+## 1      0.4      0.5      0.9      0.4      0.5         0.4         0.4     &lt;1.5
+##   asn_2019 ssb_2019
+## 1     &lt;1.5     &lt;1.5</code></pre>
 <div id="question-3-column-descriptiors" class="section level3">
 <h3>Question 3 Column Descriptiors</h3>
 <p><strong>Demographic categories:</strong></p>
