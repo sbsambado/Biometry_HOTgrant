@@ -1,0 +1,104 @@
+---
+title: "EEMB146 Lab 6 Homework"
+author: "Written by Samantha Sambado"
+date: "2023-12-29"
+output:   
+    html_document:
+      toc: true
+      toc_float: true
+---
+
+## Homework 6 -- Analysis of Variance Across Groups
+
+This homework will apply your data visualization skills (Lab 3), hypothesis testing (Lab 4 & 5), knowledge about residuals & how to interpret ANOVAs/Post-hoc Tests (Lab 6). If you are having trouble with RStudio or knitting your .Rmd file please speak with a TA before the due date. **All of the information and code needed to answer homework questions can be found in Lab 6 Exercise files.**  You will be graded on completeness and correctness. 
+
+```{r setup, include=FALSE}
+## setting up the style of your knitted document
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+
+################################################################################
+## installing packages
+library(readr) # package for reading in data
+library(tidyverse) # package for data wrangling 
+library(ggplot2) # package for plotting
+library(lterdatasampler) # package for built in pika data
+library(car) # package for qqPlot
+# install.packages("multcomp") # NEW package for running post-hoc test
+library(multcomp)
+# install.packages("pwr") # NEW package for running power analysis 
+library(pwr)
+
+################################################################################
+## upload data
+# recommend putting data into a folder called 'data'
+litter <- read.csv("data/raw/litter_data.csv")
+crop <- read.csv("data/kona_crop.csv")
+```
+
+# Homework Questions
+
+## Question 1
+
+Please answer **True or False** for 1a-c.
+
+a) For ANOVAs, we are testing the normality of individual variables (i.e. not residuals)
+b) If your ANOVA is significant you know which level is different from the other levels
+c) Based on what you have learned in Exercise 6, if you are comparing the means of 2 groups, you can use an ANOVA.
+
+## Question 2
+
+What are the four parameters needed to run a power analysis?
+
+## Question 3
+
+In Exercise 6 file, we stated that the $H_0$ of an ANOVA could be written as $H_0: \alpha_1 = \alpha_2 ... = \alpha_k$. What does k refer to in this situation?
+
+## Question 4
+
+For Question 4 you will be using the data set `litter`. These data come from the UCSB Litter Survey conducted around Isla Vista, California on 23 & 25 May 2023. The litter was systematically collected by k-pass removal surveys. Keep IV beautiful - pick up a piece of litter! 
+
+For this question **I am only interested in sites "goleta beach-parking lot", "picasso - isla vista", "reccen bike path - campus"** so please filter `litter` to those sites only. 
+
+a) Visualize `cig_count` by `site_description` with a boxplot. Must use informative labels to receive full credit.
+
+b) Fit ANOVA model with subset of data for the 3 sites
+
+c) Check if the residuals meet ANOVA assumptions using the plot(). Do your residuals meet the normality and variance assumptions (yes/no)? Must comment on the shape of the "Residual vs Fitted" and "Q-Q Residuals" graphs for full credit. 
+
+d) Regardless if you think the residuals meet the ANOVA assumptions, please interpret the ANOVA model. You must state the null and alternative hypotheses of the ANOVA model. And include the degrees of freedom, F-value, p-value, if you reject or fail the null hypothesis. After reporting these values, in 1-2 sentences discuss what this means about the 3 sites if they have similar or dissimilar amounts of cigarette counts.
+
+e) Based on the result from the ANOVA model, should you run a post-hoc test (e.g. Tukey-Kramer)? Say yes or no and explain your answer.
+
+
+
+## Question 5
+
+For Question 5, you will be using the data set `crop`. These data came from the Konza Prairie Agroecosystem (KONA), which is part of another long term ecological program - NEON. The National Ecological Observatory Network [NEON](https://www.nsf.gov/news/special_reports/neon/) is another NSF supported program that has lots of job opportunities for recent grads - go check it out!
+
+Say you are a post-doctoral researcher interested in a crop species that has a high biomass per acre (i.e. lots of data in a short amount of time). Let's run an ANOVA to test if there are certain crop `species` that have higher `yield_bushels_per_acre`.
+
+a) Visualize `yield_bushels_per_acre` by `species` with a boxplot. Must use informative labels to receive full credit.
+
+b) Fit ANOVA model 
+
+c) Check if the residuals meet ANOVA assumptions using the plot(). Do your residuals meet the normality and variance assumptions (yes/no)? Must comment on the shape of the "Residual vs Fitted" and "Q-Q Residuals" graphs for full credit.
+
+d) Regardless if you think the residuals are normal or not, log transform `yield_bushels_per_acre`, re-run the ANOVA, re-check the assumptions. Do your transformed residuals meet the normality and variance assumptions (yes/no)? Must comment on the shape of the "Residual vs Fitted" and "Q-Q Residuals" graphs for full credit. 
+
+e) Regardless if you think the transformed residuals meet the ANOVA assumptions, please interpret the ANOVA model. You must state the null and alternative hypotheses of the ANOVA model. And include the degrees of freedom, F-value, p-value, if you reject or fail the null hypothesis. After reporting these values, in 1-2 sentences discuss what this means about the different crop species and if they have similar or dissimilar crop yields.
+
+f) Based on the result from the ANOVA model, should you run a post-hoc test (e.g. Tukey-Kramer)? Say yes or no and explain your answer.
+
+g) Regardless of your answer to e, run a Tukey-Kramer post-hoc test using the glht() and interpret the summary of the post-hoc test.
+
+h) Regardless of your answer to e, print out the compact letter display of the Tukey-Kramer results using the cld(). For each species, report their letter
+
+i) Regardless of your answer to e, plot the 95% CI of the Tukey-Kramer post-hoc results using plot(). Comment if any 95% CI group overlaps with the 0 dotted line and what does it mean if a 95% CI group doesn't overlap the 0 dotted line. 
+
+j) Based on answers from f-h, which crop species has the highest yield and why do you say that?
+
+
+
+### End of Homework 6
+
+
